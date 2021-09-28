@@ -4,13 +4,10 @@ const dbUri = config.default.databaseURL || "";
 
 const connectDB = async () => {
   try {
-    await mongoose.connect(dbUri, {
-      useNewURLParser: true
-    });
+    await mongoose.connect(dbUri);
     console.log("Connected to DB");
-  } catch (err:any) {
+  } catch (err: any) {
     console.error(err.message);
   }
 };
-
-module.exports = connectDB;
+export default connectDB;
