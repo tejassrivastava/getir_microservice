@@ -1,12 +1,10 @@
-# KD Express Rest API Search | Sorting | Pagination
+# Getir Express Rest API | Fetch Record From Mongo
 
 We have developed a simple express based Rest API which has the following features:
 
 ### Features
-- Exact Search (Pass search term inside double quotes i.e. "search me")
-- Simple Search
-- Sorting based on field & type i.e  field = "name" , type="asc|desc"
-- Hybrid Pagination i.e maintained from both backend & frontend.
+- Filter date by passing startDate & endDate
+- Filter date by passing minCount & maxCount
 
 ------------
 
@@ -28,19 +26,16 @@ Start the node server
 
 Make an API request on 
 
-`http://127.0.0.1:8080/api/posts/all`
+`http://127.0.0.1:8080/api/records/all`
 
 Request Body
 
 ```json
 {
-    "search":"the king",
-    "sort":{
-        "key":"dateLastEdited",
-        "type":"desc"
-    },
-    "page":"1",
-    "limit":"10"
+"startDate": "2016-01-26",
+"endDate": "2018-02-02",
+"minCount": 1,
+"maxCount": 170
 }
 ```
 
