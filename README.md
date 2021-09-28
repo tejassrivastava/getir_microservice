@@ -63,11 +63,11 @@ To run tests
 **Current Test Case Result:**
 
 
-[![](https://github.com/tejassrivastava/kd-sorter/blob/main/TestResult.png)](https://github.com/tejassrivastava/kd-sorter/blob/main/TestResult.png)
+[![](https://github.com/tejassrivastava/getir_microservice/blob/main/TestResult.png)](https://github.com/tejassrivastava/kd-sorter/blob/main/TestResult.png)
 
 **Current Test Coverage Result:**
 
-[![](https://github.com/tejassrivastava/kd-sorter/blob/main/TestCoverage.png)](https://github.com/tejassrivastava/kd-sorter/blob/main/TestCoverage.png)
+[![](https://github.com/tejassrivastava/getir_microservice/blob/main/TestCoverage.png)](https://github.com/tejassrivastava/kd-sorter/blob/main/TestCoverage.png)
 
 
 ------------
