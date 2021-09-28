@@ -26,7 +26,13 @@ Start the node server
 
 Make an API request on 
 
+Localhost
+
 `http://127.0.0.1:8080/api/records/all`
+
+Heroku
+
+`https://tejas-getir-deploy.herokuapp.com/api/records/all`
 
 Request Body
 
