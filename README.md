@@ -32,7 +32,7 @@ Localhost
 
 Heroku
 
-`https://tejas-getir-deploy.herokuapp.com/api/records/all`
+`https://tejas-getir-api.herokuapp.com/api/records/all`
 
 Request Body
 
